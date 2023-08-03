@@ -1,9 +1,9 @@
-```c
 #include "main_os.h"
 #include "integration.h"
 #include "performance_safety.h"
 #include "ecosystem.h"
 #include "development_process.h"
+#include "page1.html"
 
 // Main function to start the OS
 int main() {
@@ -55,4 +55,23 @@ void init_device() {
 void init_filesystem() {
     // Code to initialize the filesystem
 }
-```
+
+// Function to include static files
+void include_static_files() {
+    // Code to include static files
+}
+
+// Function to load the OS
+void load_os() {
+    init_hardware();
+    init_memory();
+    init_process();
+    init_device();
+    init_filesystem();
+    include_static_files();
+    init_integration();
+    optimize_performance();
+    check_safety();
+    init_development();
+    execute_development();
+}

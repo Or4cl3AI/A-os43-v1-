@@ -36,6 +36,9 @@ Please refer to the `requirements.txt` file for a list of dependencies required 
 
 Please refer to the respective `.rs`, `.c`, and `.h` files for instructions on how to build and run each component of A-os43.
 
+### Additional Pages
+- [Page 1](static/page1.html)
+
 ## Note
 
 Developing an operating system tailored to a specific hardware platform requires significant expertise, deep knowledge of the hardware architecture, and time investment. It is recommended to have prior experience in systems programming and to thoroughly research the hardware specifications and capabilities of the Compaq Presario CQ57 before embarking on the development process.

@@ -1,0 +1,42 @@
+# Rust
+rustc=1.54.0
+cargo=1.54.0
+
+# C/C++
+gcc=9.3.0
+g++=9.3.0
+
+# Libraries
+libc=2.31
+libstdc++=9.3.0
+
+# Tools
+make=4.2.1
+cmake=3.16.3
+binutils=2.34
+
+# Debugging Tools
+gdb=9.1
+valgrind=3.15.0
+
+# Profiling Tools
+gprof=2.34
+perf=4.5
+
+# Documentation Tools
+doxygen=1.8.17
+
+# Version Control
+git=2.25.1
+
+# Other Dependencies
+grub=2.04
+qemu=4.2.1
+bochs=2.6.11
+nasm=2.14
+ld=2.34
+objdump=2.34
+objcopy=2.34
+readelf=2.34
+strip=2.34
+nm=2.34

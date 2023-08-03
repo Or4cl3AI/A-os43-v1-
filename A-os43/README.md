@@ -36,6 +36,19 @@ Please refer to the `requirements.txt` file for a list of dependencies required 
 
 Please refer to the respective `.rs`, `.c`, and `.h` files for instructions on how to build and run each component of A-os43.
 
+### Locating and Using the `./configure` Script
+
+To configure the build process, you will need to locate and use the `./configure` script. Follow the steps below to find and use the script:
+
+1. Navigate to the root directory of the A-os43 project.
+2. Check if the `./configure` script is present in the root directory. If it is not, please ensure that you have the latest version of the project.
+3. If the `./configure` script is present, open a terminal or command prompt and navigate to the root directory of the project.
+4. Run the following command to execute the `./configure` script:
+   ```
+   ./configure
+   ```
+   This will configure the build process based on the specified options and generate the necessary build files.
+
 ### Additional Pages
 - [Page 1](static/page1.html)
 

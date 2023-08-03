@@ -1,4 +1,3 @@
-```rust
 // A-os43/development_process.rs
 
 use std::process::Command;
@@ -11,6 +10,19 @@ pub fn init_development() {
 // Function to execute the development process
 pub fn execute_development() {
     println!("Executing the development process...");
+
+    // Check if the ./configure script file exists
+    if std::path::Path::new("./configure").exists() {
+        // Execute the ./configure script
+        let output = Command::new("./configure").output().expect("Failed to execute ./configure script");
+        if output.status.success() {
+            println!("./configure script executed successfully");
+        } else {
+            println!("Failed to execute ./configure script");
+        }
+    } else {
+        println!("Error: ./configure script not found");
+    }
 
     // Call the necessary functions for the development process
     init_bootloader();
@@ -84,4 +96,3 @@ fn check_safety() {
     println!("Checking the safety...");
     // Add the necessary code to check the safety
 }
-```
